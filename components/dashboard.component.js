@@ -11,9 +11,6 @@ import {
 
 export const DashboardScreen = ({ navigation }) => {
   const theme = useTheme();
-  const navigateDashboard = () => {
-    navigation.navigate("Dashboard");
-  };
 
   return (
     <>
